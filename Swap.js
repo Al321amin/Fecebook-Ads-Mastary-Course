@@ -1,0 +1,11 @@
+var d = 19;
+var e = 28;
+console.log("beforeSwap d =", d, "e =", e);
+var temp = d;
+d = e;
+e = temp;
+console.log("afterSwap d =", d, "e =", e);
+var y =45;
+var z = 67;
+[y, z] = [z, y];
+console.log("afterSwap y =", y, "z =", z);
